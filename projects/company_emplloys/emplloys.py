@@ -4,10 +4,12 @@ employee_name = input("Enter your name: ")
 employee_ID = int(input("Enter your employee ID: "))
 department = input("Enter your department: ")
 salary = int(input("Enter your salary: "))
-if salary >= 5000:
- print("seniour emplloy")
+if salary >= 50000:
+    print("Senior Employee")
+elif salary >= 25000:
+    print("Mid-Level Employee")
 else:
- print("junior emplloy")
+    print("Junior Employee")
 
 print("\n----- Employee Details -----")
 print("Name      :", employee_name)
