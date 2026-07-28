@@ -7,7 +7,7 @@ if pin == 1234:
     print("\n1. Check Balance")
     print("2. Deposit")
     print("3. Withdraw")
-
+    print("4. Exit")
     choice = int(input("Enter your choice: "))
 
     balance = 10000
@@ -29,8 +29,11 @@ if pin == 1234:
         else:
             print("Insufficient Balance")
 
-    else:
-        print("Invalid Choice")
+    elif choice == 4:
+        print("Thank you for using our ATM")
+       
 
 else:
     print("Invalid PIN")
+
+
